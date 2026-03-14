@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: insurance_raw
+    database: INSURANCE_DB
+    schema: RAW
+    tables:
+      - name: RAW_POLICY_EVENTS
+      - name: CLAIM_SETTLEMENT_FACT
+      - name: CUSTOMER_RISK_PROFILE
+      - name: AGENT_COMMISSION_LEDGER
+      - name: POLICY_RENEWAL_TRACKER
+      - name: CLAIM_AUDIT_LOG
+      - name: MASKED_CUSTOMER_VIEW
+      - name: REJECTED_FILE_RECORDS
